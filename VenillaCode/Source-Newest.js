@@ -14,10 +14,11 @@ let Gameloop = false
 let IsCalibrated = false
 let time = 70   // Time that a Match lasts, +10 Seconds in case the other bot needs to do something.
 
-
 function USonicDetection() {
     // Do later 
 }
+
+// Every second (tick), USonic Will be tested. if is less than one of the starting Values, It will assume that is a Robot.
 
 function calibrateUSonicSensor() {
     pause(4000)
